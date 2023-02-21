@@ -225,7 +225,7 @@ header nav ul li {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  background: url('../img/jake-melara-30679-unsplash.jpg') center no-repeat #333;
+  background: url('../img/034Mushroom.JPG') center no-repeat #333;
   background-size: cover;
   background-position: center;
   min-height: 500px;
@@ -278,12 +278,13 @@ input[type=button] {
 /* Features */
 
 .features {
-  background: url('../img/rawpixel-800820-unsplash1.jpg');
+  background: url('../img/001Flower.JPG');
   background-size: cover;
   background-position: center;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  text-shadow: 2px 2px #000;
 }
 
 .features h2 {
@@ -305,6 +306,7 @@ input[type=button] {
 .features p {
   text-align: center;
   margin: 0;
+  font-weight: bold;
 }
 
 .features i {
