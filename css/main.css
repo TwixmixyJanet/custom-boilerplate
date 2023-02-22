@@ -284,7 +284,8 @@ input[type=button] {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  text-shadow: 2px 2px #000;
+  text-shadow: 2px 2px 2px #000;
+  -webkit-text-stroke: black .5px;
 }
 
 .features h2 {
