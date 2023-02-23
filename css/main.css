@@ -47,7 +47,7 @@ hr {
   display: block;
   height: 1px;
   border: 0;
-  border-top: 1px solid #ccc;
+  border-top: 1px solid #dbffdb;
   margin: 1em 0;
   padding: 0;
 }
@@ -98,7 +98,7 @@ html {
 body {
   font-size: 1em;
   background-color: #202322;
-  color: #e2e3ed;
+  color: #dbffdb;
   font-family: 'Open Sans', sans-serif;
   text-align: left;
 }
@@ -109,7 +109,7 @@ ol {
 }
  
 a {
-  color: #e2e3ed;
+  color: #dbffdb;
   text-transform: uppercase;
   text-decoration: none;
   font-weight: bold;
@@ -163,7 +163,7 @@ address {
 
 header,
 footer {
-  background-color: #202322;
+  background-color: #000;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -174,6 +174,9 @@ footer {
 
 header {
   padding: 15px 0;
+  font-size: 24px;
+  text-align: center;
+  color: #00ff00;
 }
 
 header figure {
@@ -193,7 +196,7 @@ header .content-wrapper {
 }
 
 .header-divider {
-  background: #3a3a3a; 
+  background: #00ff00; 
   width: 100%;
   height: 1px;
   margin: 10px 0 20px 0;
@@ -205,6 +208,7 @@ header nav {
   align-items: center;
   flex-flow: row wrap;
   width: 60%;
+ 
 }
 
 header nav ul {
@@ -242,7 +246,7 @@ header nav ul li {
 /* Aside */
 
 aside {
-  background-color: #527158;
+  background-color: #6b5097;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -256,7 +260,7 @@ aside .form {
 input[type=text] {
   box-sizing: border-box;
   width: 100%;
-  color: #2a423a;
+  color: #5e468a;
   font-style: italic;
   padding: 1em;
 }
@@ -265,14 +269,19 @@ input[type=button] {
   width: 100%;
   padding: 20px 0;
   margin-top: 20px;
-  background-color: #2a423a;
+  background-color: #5e468a;
   font-family: 'Poppins', Helvetica, Arial, sans-serif;
   font-weight: 500;
   font-size: 1.125em;
-  color: #e2e3ed;
+  color: #dbffdb;
   border: none;
   text-align: center;
   text-transform: uppercase;
+}
+
+.oops {
+  font-size: 14px;
+  font-style: italic;
 }
 
 /* Features */
@@ -318,7 +327,7 @@ input[type=button] {
 /* Reviews */
 
 .reviews {
-  background-color: #2a423a;
+  background-color: #5e468a;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -340,7 +349,7 @@ input[type=button] {
 
 
 .mission {
-  background-color: #527158;
+  background-color: #5e468a;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -364,7 +373,7 @@ input[type=button] {
 }
 
 .contact-section {
-  background-color: #2a423a;
+  background-color: #5e468a;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -380,7 +389,7 @@ input[type=button] {
    ========================================================================== */
 
 .faq {
-  background-color: #527158;
+  background-color: #5e468a;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -444,7 +453,7 @@ footer .social-icons p {
 footer .social-icons i {
   font-size: 2em;
   margin: 10px;
-  color:#527158;
+  color:#00ff00;
 }
 
 footer .copyright {
