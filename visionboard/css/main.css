@@ -1,0 +1,82 @@
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Permanent Marker', cursive;
+*/
+
+body {   
+    background: #e8e8e8;
+    padding: 2%;
+}
+
+#vision-board {
+    width: 1200px;
+    height: 850px;
+    overflow: auto;
+    background-image: url('../img/background.png');
+    background-size: cover;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    margin: auto;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.block {
+    float: left;
+    width: 400px;
+    box-sizing: border-box;
+}
+
+.large-block {
+    height: 430px;
+    padding: 60px 30px;
+}
+
+.small-block {
+    height: 210px;
+    padding: 30px 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.light-bg {
+    background-color: white;
+}
+
+.eye {
+    background-color: #3b3b3b;
+    color: white;
+    font-size: 30px;
+}
+
+.marker {
+    font-family: 'Permanent Marker';
+    font-size: 30px;
+}
+.highlight {
+    background-color: #FFF44F;
+    padding: 5px 10px;
+    font-size: 18px;
+}
+
+strong {
+    text-transform: none;
+    font-size: 38px;
+    line-height: 38px;
+}
+
+p {
+    vertical-align: middle;
+}
+
+.top-padding {
+    padding-top: 40px;
+}
